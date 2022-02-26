@@ -10,40 +10,41 @@ while True:
     print ('Para sair digite 0')
     print ('-------------------------------------------')
     operacao= input()
-    if operacao == '0':
-        break;
+if operacao == '0':
+    break;
 
-    n1= int(input ('Escreva o primeiro número inteiro: '))
-    n2= int(input ('Escreva o segundo número inteiro: '))
-    if operacao == '+':
-        print ('soma', n1+n2)
+n1= int(input ('Escreva o primeiro número inteiro: '))
+n2= int(input ('Escreva o segundo número inteiro: '))
 
-    elif operacao == '-':
-        print('subtração', n1-n2)
+if operacao == '+':
+    print ('soma', n1+n2)
 
-    elif operacao == '/':
-        if n2!=0:
-            print ('Divisão', n1/n2)
-        else:
-             print ('NÃO DIVIDE POR ZERO !!!')
+elif operacao == '-':
+    print('subtração', n1-n2)
+
+elif operacao == '/':
+    if n2!=0:
+        print ('Divisão', n1/n2)
+    else:
+        print ('NÃO DIVIDE POR ZERO !!!')
             
-    elif operacao == '*':
-        print ('multiplicação', n1*n2)
+elif operacao == '*':
+    print ('multiplicação', n1*n2)
                
-    elif operacao== '//':
-        if n2!=0:
-            print('Divisão arredondada', n1//n2)
-        else:
-            print('NÃO DIVIDE POR ZERO !!!')
+elif operacao== '//':
+    if n2!=0:
+        print('Divisão arredondada', n1//n2)
+    else:
+        print('NÃO DIVIDE POR ZERO !!!')
 
-    elif operacao == 'R':
-        if n2!=0:
-            print('Resto', n1%n2)
-        else:
-            print('NÃO DIVIDE POR ZERO !!!')
+elif operacao == 'R':
+    if n2!=0:
+        print('Resto', n1%n2)
+    else:
+        print('NÃO DIVIDE POR ZERO !!!')
 
-    elif operacao == '**':
-            print('exponenciação', n1**n2)
+elif operacao == '**':
+    print('exponenciação', n1**n2)
         
         
     
