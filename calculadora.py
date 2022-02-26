@@ -10,8 +10,8 @@ while True:
     print ('Para sair digite 0')
     print ('-------------------------------------------')
     operacao= input()
-if operacao == '0':
-    break;
+    if operacao == '0':
+         break;
 
 n1= int(input ('Escreva o primeiro número inteiro: '))
 n2= int(input ('Escreva o segundo número inteiro: '))
